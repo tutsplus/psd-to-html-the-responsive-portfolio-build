@@ -1,0 +1,387 @@
+/* -----RED TEXT = #e46965 */
+/* -----GRAY TEXT = #777 */
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: "alverata-informal-pe", sans-serif; */
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h2 {
+	color: #e46965;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 15px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+/* ---------------- MAIN NAVIGATION --------------- */
+nav {
+	background-color: #dadada;
+	height: 40px;
+}
+
+.menu-icon { display: none; }
+
+.nav-list, .social-list {
+	list-style: none;
+}
+
+.nav-list li, .social-list li {
+	float: left;
+}
+
+.nav-list li {
+	margin-right: 20px;
+}
+
+.nav-list li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-list {
+	padding-top: 10px;
+	float: left;
+}
+.social-list {
+	margin-top: 5px;
+	float: right;
+}
+
+.social-list li {
+	margin-left: 20px;
+}
+
+/* ------------ HEADER -------------- */
+header h1, header h3 {
+	font-weight: normal;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 44px;
+	margin-top: 20px;
+}
+
+header h3 {
+	color: #e46965;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+/* ------------- FEATURE SECTION -------------- */
+.feature {
+	background-color: #363636;
+}
+
+.feature-list {
+	list-style: none;
+	background: url('../images/feature-bg.jpg') top center no-repeat;
+	height: 300px;
+}
+
+.feature-list li {
+	width: 33.3333%;
+	height: 300px;
+	float: left;
+	border-left: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.feature-list li:last-child {
+	border-right: 1px solid white;
+}
+
+.feature-list li a {
+	text-decoration: none;
+}
+
+.feature-title {
+	color: white;
+	opacity: 0.5;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.feature-list li a:hover .feature-title {
+	opacity: 1;
+}
+
+
+/* -------- PORTFOLIO -------------- */
+.portfolio-samples {
+	background-color: #dadada;
+	padding: 5px 0 20px 0;
+	margin-top: 20px;
+}
+
+.portfolio-list {
+	list-style: none;
+}
+
+.portfolio-list li {
+	background-color: #555;
+	width: 210px;
+	height: 210px;
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+
+.portfolio-list li:last-child {
+	margin-right: 0;
+}
+
+.port-laptops { background: url('../images/laptops.jpg') center center no-repeat; }
+.port-acme { background: url('../images/acmelogo.gif') -200px -60px no-repeat; }
+.port-demoreel { background: url('../images/tablet.jpg') center center no-repeat; }
+.port-logo { background: url('../images/alogo.gif') center center no-repeat; }
+
+.portfolio-list li span {
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	width: 210px;
+	height: 52px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 7px;
+}
+
+.portfolio-list a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	float: left;
+}
+
+.portfolio-list .sample-icon {
+	float: right;
+}
+
+
+/* -------------- FOOTER ------------ */
+footer {
+	background-color: #252525;
+	color: #9d9d9d;
+	padding: 20px 0 60px 0;
+	position: relative;
+}
+
+footer h3 {
+	color: #e46965;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.col-one-third {
+	width: 33%;
+	float: left;
+}
+
+.footer-list dt {
+	font-weight: bold;
+}
+
+.footer-list dd {
+	margin-left: 0;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+footer address {
+	font-style: normal;
+}
+
+footer address a {
+	color: #9d9d9d;
+	text-decoration: none;
+	font-style: italic;
+}
+
+footer address a:hover {
+	text-decoration: underline;
+}
+
+footer .registration input {
+	width: 100%;
+	display: block;
+	background-color: #363636;
+	border: 1px solid #6d6d6d;
+	color: #6d6d6d;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+footer .registration button {
+	background-color: #e46965;
+	border: none;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+footer .copyright {
+	width: 100%;
+	display: block;
+	background-color: black;
+	color: #555;
+	text-align: center;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+}
+
+
+/* ----------- CLEARFIX -------------- */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+/* ---------------- RESPONSIVE --------------- */
+@media (max-width: 899px) {
+	.container { padding: 0 10px; }
+	
+	.feature-list {
+		margin: 0 10px;
+		padding: 0;
+	}
+	
+	.portfolio-list {
+		width: 100%;
+	}
+	
+	.portfolio-list li {
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.portfolio-list li span {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	
+	.menu-icon {
+		display: block;
+		padding-top: 6px;
+		cursor: pointer;
+	}
+	
+	.nav-list {
+		display: none;
+		background-color: #aaa;
+		width: 100%;
+		padding: 10px;
+		padding-bottom: 0;
+		margin-top: 6px;
+		position: relative;
+		left: -10px;
+	}
+	
+	.nav-list li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+	
+	.social-list {
+		position: absolute;
+		top: 0px;
+		right: 10px;
+	}
+	
+	.portfolio-list li {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.feature-list {
+		background: none;
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+	
+	.feature-list li {
+		background-image: url('../images/feature-bg.jpg');
+		float: none;
+		height: 120px;
+		border-right: none !important;
+		border-left: none;
+		border-bottom: 1px solid white;
+		width: 100%;
+		text-align: left;
+		padding: 0;
+		margin-top: 0 !important;
+	}
+	
+	.feature-icon {
+		float: left;
+		margin: 28px 20px 0 10px;
+	}
+	
+	.feature-title {
+		line-height: 120px;
+		margin: 0;
+	}
+	
+	.feature-web { background-position: top left; }
+	.feature-graphic { background-position: bottom center; }
+	.feature-video { background-position: center right; }
+	
+	.col-one-third {
+		float: none;
+		width: 100%;
+	}
+}

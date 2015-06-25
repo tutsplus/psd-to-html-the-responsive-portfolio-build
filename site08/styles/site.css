@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: "alverata-informal-pe", sans-serif; */
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* ---------------- MAIN NAVIGATION --------------- */
+nav {
+	background-color: #dadada;
+	height: 40px;
+}
+
+.nav-list, .social-list {
+	list-style: none;
+}
+
+.nav-list li, .social-list li {
+	float: left;
+}
